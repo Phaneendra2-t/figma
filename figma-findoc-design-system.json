@@ -1,0 +1,427 @@
+{
+  "document": {
+    "id": "0:0",
+    "name": "Findoc Design System",
+    "type": "DOCUMENT",
+    "children": [
+      {
+        "id": "0:1",
+        "name": "01 Design System",
+        "type": "CANVAS",
+        "children": [
+          {
+            "id": "0:2",
+            "name": "Colors",
+            "type": "FRAME",
+            "size": {"x": 0, "y": 0, "width": 1440, "height": 900},
+            "children": [
+              {"id": "c1", "name": "Primary 600", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.102, "g": 0.427, "b": 1.0}}], "size": {"x": 40, "y": 40, "width": 120, "height": 120}},
+              {"id": "c2", "name": "Primary 700", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.059, "g": 0.302, "b": 0.776}}], "size": {"x": 180, "y": 40, "width": 120, "height": 120}},
+              {"id": "c3", "name": "Ink 900", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}], "size": {"x": 320, "y": 40, "width": 120, "height": 120}},
+              {"id": "c4", "name": "Ink 700", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.165, "g": 0.204, "b": 0.278}}], "size": {"x": 460, "y": 40, "width": 120, "height": 120}},
+              {"id": "c5", "name": "Slate 500", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.392, "g": 0.459, "b": 0.545}}], "size": {"x": 600, "y": 40, "width": 120, "height": 120}},
+              {"id": "c6", "name": "Cloud 100", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.965, "g": 0.973, "b": 0.984}}], "size": {"x": 740, "y": 40, "width": 120, "height": 120}},
+              {"id": "c7", "name": "Border 200", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "size": {"x": 880, "y": 40, "width": 120, "height": 120}},
+              {"id": "c8", "name": "Success", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.086, "g": 0.639, "b": 0.29}}], "size": {"x": 1020, "y": 40, "width": 120, "height": 120}},
+              {"id": "c9", "name": "Warning", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.961, "g": 0.620, "b": 0.055}}], "size": {"x": 1160, "y": 40, "width": 120, "height": 120}},
+              {"id": "c10", "name": "Danger", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.937, "g": 0.267, "b": 0.267}}], "size": {"x": 40, "y": 180, "width": 120, "height": 120}}
+            ]
+          },
+          {
+            "id": "0:2a",
+            "name": "Gradients",
+            "type": "FRAME",
+            "size": {"x": 0, "y": 0, "width": 1440, "height": 900},
+            "children": [
+              {
+                "id": "g1",
+                "name": "Hero Gradient",
+                "type": "RECTANGLE",
+                "fills": [
+                  {
+                    "type": "GRADIENT_LINEAR",
+                    "gradientStops": [
+                      {"color": {"r": 0.102, "g": 0.427, "b": 1.0, "a": 0.18}, "position": 0},
+                      {"color": {"r": 0.965, "g": 0.973, "b": 0.984, "a": 0}, "position": 1}
+                    ],
+                    "gradientTransform": [[1, 0, 0], [0, 1, 0]]
+                  }
+                ],
+                "cornerRadius": 16,
+                "size": {"x": 40, "y": 40, "width": 320, "height": 160}
+              },
+              {
+                "id": "g2",
+                "name": "Card Glow",
+                "type": "RECTANGLE",
+                "fills": [
+                  {
+                    "type": "GRADIENT_RADIAL",
+                    "gradientStops": [
+                      {"color": {"r": 0.102, "g": 0.427, "b": 1.0, "a": 0.25}, "position": 0},
+                      {"color": {"r": 1, "g": 1, "b": 1, "a": 0}, "position": 1}
+                    ],
+                    "gradientTransform": [[1, 0, 0], [0, 1, 0]]
+                  }
+                ],
+                "effects": [{"type": "LAYER_BLUR", "radius": 18, "visible": true}],
+                "cornerRadius": 999,
+                "size": {"x": 400, "y": 40, "width": 320, "height": 160}
+              }
+            ]
+          },
+          {
+            "id": "0:3",
+            "name": "Typography",
+            "type": "FRAME",
+            "size": {"x": 0, "y": 0, "width": 1440, "height": 900},
+            "children": [
+              {"id": "t1", "name": "H1", "type": "TEXT", "characters": "Heading 1", "style": {"fontFamily": "Sora", "fontWeight": 700, "fontSize": 48, "lineHeight": {"unit": "PIXELS", "value": 56}}, "size": {"x": 40, "y": 40, "width": 300, "height": 56}},
+              {"id": "t2", "name": "H2", "type": "TEXT", "characters": "Heading 2", "style": {"fontFamily": "Sora", "fontWeight": 700, "fontSize": 36, "lineHeight": {"unit": "PIXELS", "value": 44}}, "size": {"x": 40, "y": 120, "width": 300, "height": 44}},
+              {"id": "t3", "name": "H3", "type": "TEXT", "characters": "Heading 3", "style": {"fontFamily": "Sora", "fontWeight": 600, "fontSize": 28, "lineHeight": {"unit": "PIXELS", "value": 36}}, "size": {"x": 40, "y": 200, "width": 300, "height": 36}},
+              {"id": "t4", "name": "Body L", "type": "TEXT", "characters": "Body Large", "style": {"fontFamily": "DM Sans", "fontWeight": 500, "fontSize": 18, "lineHeight": {"unit": "PIXELS", "value": 28}}, "size": {"x": 40, "y": 280, "width": 300, "height": 28}},
+              {"id": "t5", "name": "Body M", "type": "TEXT", "characters": "Body Medium", "style": {"fontFamily": "DM Sans", "fontWeight": 400, "fontSize": 16, "lineHeight": {"unit": "PIXELS", "value": 24}}, "size": {"x": 40, "y": 340, "width": 300, "height": 24}},
+              {"id": "t6", "name": "Body S", "type": "TEXT", "characters": "Body Small", "style": {"fontFamily": "DM Sans", "fontWeight": 400, "fontSize": 14, "lineHeight": {"unit": "PIXELS", "value": 20}}, "size": {"x": 40, "y": 400, "width": 300, "height": 20}},
+              {"id": "t7", "name": "Label M", "type": "TEXT", "characters": "LABEL", "style": {"fontFamily": "DM Sans", "fontWeight": 600, "fontSize": 13, "lineHeight": {"unit": "PIXELS", "value": 16}, "textCase": "UPPER"}, "size": {"x": 40, "y": 460, "width": 100, "height": 16}}
+            ]
+          },
+          {
+            "id": "0:4",
+            "name": "Components",
+            "type": "FRAME",
+            "size": {"x": 0, "y": 0, "width": 1440, "height": 900},
+            "children": [
+              {
+                "id": "btn1",
+                "name": "Button Primary",
+                "type": "COMPONENT",
+                "size": {"x": 40, "y": 40, "width": 160, "height": 48},
+                "children": [
+                  {"id": "btn1-bg", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.102, "g": 0.427, "b": 1.0}}], "cornerRadius": 12},
+                  {"id": "btn1-text", "type": "TEXT", "characters": "Primary", "style": {"fontFamily": "DM Sans", "fontWeight": 600, "fontSize": 16, "fills": [{"type": "SOLID", "color": {"r": 1, "g": 1, "b": 1}}]}, "size": {"x": 0, "y": 0, "width": 160, "height": 48}}
+                ]
+              },
+              {
+                "id": "btn2",
+                "name": "Button Secondary",
+                "type": "COMPONENT",
+                "size": {"x": 220, "y": 40, "width": 160, "height": 48},
+                "children": [
+                  {"id": "btn2-bg", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.965, "g": 0.973, "b": 0.984}}], "strokeWeight": 1, "strokes": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "cornerRadius": 12},
+                  {"id": "btn2-text", "type": "TEXT", "characters": "Secondary", "style": {"fontFamily": "DM Sans", "fontWeight": 600, "fontSize": 16, "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}]}, "size": {"x": 0, "y": 0, "width": 160, "height": 48}}
+                ]
+              },
+              {
+                "id": "input1",
+                "name": "Input Field",
+                "type": "COMPONENT",
+                "size": {"x": 40, "y": 120, "width": 320, "height": 80},
+                "children": [
+                  {"id": "input1-label", "type": "TEXT", "characters": "Label", "style": {"fontFamily": "DM Sans", "fontWeight": 600, "fontSize": 13, "textCase": "UPPER", "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}]}, "size": {"x": 0, "y": 0, "width": 320, "height": 16}},
+                  {"id": "input1-field", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 1, "g": 1, "b": 1}}], "strokeWeight": 1, "strokes": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "cornerRadius": 10, "size": {"x": 0, "y": 24, "width": 320, "height": 48}},
+                  {"id": "input1-placeholder", "type": "TEXT", "characters": "Placeholder", "style": {"fontFamily": "DM Sans", "fontWeight": 400, "fontSize": 16, "fills": [{"type": "SOLID", "color": {"r": 0.392, "g": 0.459, "b": 0.545}}]}, "size": {"x": 16, "y": 40, "width": 288, "height": 24}}
+                ]
+              },
+              {
+                "id": "card1",
+                "name": "Stat Card",
+                "type": "COMPONENT",
+                "size": {"x": 40, "y": 240, "width": 280, "height": 120},
+                "children": [
+                  {"id": "card1-bg", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 1, "g": 1, "b": 1}}], "strokeWeight": 1, "strokes": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "cornerRadius": 12, "size": {"x": 0, "y": 0, "width": 280, "height": 120}},
+                  {"id": "card1-icon", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.102, "g": 0.427, "b": 1.0}}], "cornerRadius": 8, "size": {"x": 16, "y": 16, "width": 40, "height": 40}},
+                  {"id": "card1-label", "type": "TEXT", "characters": "Label", "style": {"fontFamily": "DM Sans", "fontWeight": 500, "fontSize": 14, "fills": [{"type": "SOLID", "color": {"r": 0.392, "g": 0.459, "b": 0.545}}]}, "size": {"x": 16, "y": 72, "width": 100, "height": 20}},
+                  {"id": "card1-value", "type": "TEXT", "characters": "1,234", "style": {"fontFamily": "Sora", "fontWeight": 700, "fontSize": 24, "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}]}, "size": {"x": 16, "y": 92, "width": 100, "height": 28}}
+                ]
+              },
+              {
+                "id": "chip1",
+                "name": "Status Chip",
+                "type": "COMPONENT",
+                "size": {"x": 40, "y": 400, "width": 100, "height": 28},
+                "children": [
+                  {"id": "chip1-bg", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.086, "g": 0.639, "b": 0.29}}], "cornerRadius": 999, "size": {"x": 0, "y": 0, "width": 100, "height": 28}},
+                  {"id": "chip1-text", "type": "TEXT", "characters": "Verified", "style": {"fontFamily": "DM Sans", "fontWeight": 600, "fontSize": 12, "fills": [{"type": "SOLID", "color": {"r": 1, "g": 1, "b": 1}}]}, "size": {"x": 0, "y": 0, "width": 100, "height": 28}}
+                ]
+              },
+              {
+                "id": "btn1-hover",
+                "name": "Button Primary / Hover",
+                "type": "COMPONENT",
+                "size": {"x": 220, "y": 400, "width": 160, "height": 48},
+                "effects": [
+                  {"type": "DROP_SHADOW", "color": {"r": 0.06, "g": 0.2, "b": 0.5, "a": 0.25}, "offset": {"x": 0, "y": 8}, "radius": 18, "spread": 0, "visible": true}
+                ],
+                "children": [
+                  {"id": "btn1-hover-bg", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.059, "g": 0.302, "b": 0.776}}], "cornerRadius": 12},
+                  {"id": "btn1-hover-text", "type": "TEXT", "characters": "Primary", "style": {"fontFamily": "DM Sans", "fontWeight": 600, "fontSize": 16, "fills": [{"type": "SOLID", "color": {"r": 1, "g": 1, "b": 1}}]}, "size": {"x": 0, "y": 0, "width": 160, "height": 48}}
+                ]
+              },
+              {
+                "id": "toggle-on",
+                "name": "Toggle / On",
+                "type": "COMPONENT",
+                "size": {"x": 40, "y": 460, "width": 56, "height": 32},
+                "children": [
+                  {"id": "toggle-on-track", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.102, "g": 0.427, "b": 1.0}}], "cornerRadius": 999, "size": {"x": 0, "y": 0, "width": 56, "height": 32}},
+                  {"id": "toggle-on-thumb", "type": "ELLIPSE", "fills": [{"type": "SOLID", "color": {"r": 1, "g": 1, "b": 1}}], "size": {"x": 28, "y": 4, "width": 24, "height": 24}}
+                ]
+              },
+              {
+                "id": "toggle-off",
+                "name": "Toggle / Off",
+                "type": "COMPONENT",
+                "size": {"x": 120, "y": 460, "width": 56, "height": 32},
+                "children": [
+                  {"id": "toggle-off-track", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "cornerRadius": 999, "size": {"x": 0, "y": 0, "width": 56, "height": 32}},
+                  {"id": "toggle-off-thumb", "type": "ELLIPSE", "fills": [{"type": "SOLID", "color": {"r": 1, "g": 1, "b": 1}}], "size": {"x": 4, "y": 4, "width": 24, "height": 24}}
+                ]
+              },
+              {
+                "id": "tab-active",
+                "name": "Tab / Active",
+                "type": "COMPONENT",
+                "size": {"x": 40, "y": 520, "width": 120, "height": 40},
+                "children": [
+                  {"id": "tab-active-text", "type": "TEXT", "characters": "Overview", "style": {"fontFamily": "DM Sans", "fontWeight": 600, "fontSize": 14, "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}]}, "size": {"x": 0, "y": 8, "width": 120, "height": 24}},
+                  {"id": "tab-active-indicator", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.102, "g": 0.427, "b": 1.0}}], "cornerRadius": 4, "size": {"x": 0, "y": 36, "width": 120, "height": 4}}
+                ]
+              },
+              {
+                "id": "tab-inactive",
+                "name": "Tab / Inactive",
+                "type": "COMPONENT",
+                "size": {"x": 180, "y": 520, "width": 120, "height": 40},
+                "children": [
+                  {"id": "tab-inactive-text", "type": "TEXT", "characters": "Activity", "style": {"fontFamily": "DM Sans", "fontWeight": 500, "fontSize": 14, "fills": [{"type": "SOLID", "color": {"r": 0.392, "g": 0.459, "b": 0.545}}]}, "size": {"x": 0, "y": 8, "width": 120, "height": 24}},
+                  {"id": "tab-inactive-indicator", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 1, "g": 1, "b": 1, "a": 0}}], "size": {"x": 0, "y": 36, "width": 120, "height": 4}}
+                ]
+              },
+              {
+                "id": "card-elevated",
+                "name": "Card / Elevated",
+                "type": "COMPONENT",
+                "size": {"x": 40, "y": 580, "width": 320, "height": 200},
+                "effects": [
+                  {"type": "DROP_SHADOW", "color": {"r": 0.06, "g": 0.12, "b": 0.2, "a": 0.12}, "offset": {"x": 0, "y": 12}, "radius": 30, "spread": 0, "visible": true}
+                ],
+                "children": [
+                  {"id": "card-elevated-bg", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 1, "g": 1, "b": 1}}], "strokeWeight": 1, "strokes": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "cornerRadius": 16, "size": {"x": 0, "y": 0, "width": 320, "height": 200}},
+                  {"id": "card-elevated-title", "type": "TEXT", "characters": "Interactive Card", "style": {"fontFamily": "Sora", "fontWeight": 600, "fontSize": 18, "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}]}, "size": {"x": 20, "y": 20, "width": 280, "height": 24}},
+                  {"id": "card-elevated-body", "type": "TEXT", "characters": "Hover states + subtle glow.", "style": {"fontFamily": "DM Sans", "fontWeight": 400, "fontSize": 14, "fills": [{"type": "SOLID", "color": {"r": 0.392, "g": 0.459, "b": 0.545}}]}, "size": {"x": 20, "y": 56, "width": 280, "height": 20}}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0:5",
+        "name": "02 Landing",
+        "type": "CANVAS",
+        "children": [
+          {
+            "id": "landing-desktop",
+            "name": "Landing Desktop",
+            "type": "FRAME",
+            "size": {"x": 0, "y": 0, "width": 1440, "height": 1024},
+            "backgrounds": [{"type": "SOLID", "color": {"r": 1, "g": 1, "b": 1}}],
+            "children": [
+              {
+                "id": "landing-bg",
+                "name": "Hero Background",
+                "type": "RECTANGLE",
+                "fills": [
+                  {
+                    "type": "GRADIENT_LINEAR",
+                    "gradientStops": [
+                      {"color": {"r": 0.102, "g": 0.427, "b": 1.0, "a": 0.12}, "position": 0},
+                      {"color": {"r": 0.965, "g": 0.973, "b": 0.984, "a": 0}, "position": 1}
+                    ],
+                    "gradientTransform": [[1, 0, 0], [0, 1, 0]]
+                  }
+                ],
+                "size": {"x": 0, "y": 0, "width": 1440, "height": 620}
+              },
+              {
+                "id": "landing-blob-1",
+                "name": "Ambient Blob 1",
+                "type": "ELLIPSE",
+                "opacity": 0.35,
+                "fills": [
+                  {
+                    "type": "GRADIENT_RADIAL",
+                    "gradientStops": [
+                      {"color": {"r": 0.102, "g": 0.427, "b": 1.0, "a": 0.45}, "position": 0},
+                      {"color": {"r": 1, "g": 1, "b": 1, "a": 0}, "position": 1}
+                    ],
+                    "gradientTransform": [[1, 0, 0], [0, 1, 0]]
+                  }
+                ],
+                "effects": [{"type": "LAYER_BLUR", "radius": 60, "visible": true}],
+                "size": {"x": -120, "y": -80, "width": 420, "height": 420}
+              },
+              {
+                "id": "landing-blob-2",
+                "name": "Ambient Blob 2",
+                "type": "ELLIPSE",
+                "opacity": 0.25,
+                "fills": [
+                  {
+                    "type": "GRADIENT_RADIAL",
+                    "gradientStops": [
+                      {"color": {"r": 0.059, "g": 0.302, "b": 0.776, "a": 0.4}, "position": 0},
+                      {"color": {"r": 1, "g": 1, "b": 1, "a": 0}, "position": 1}
+                    ],
+                    "gradientTransform": [[1, 0, 0], [0, 1, 0]]
+                  }
+                ],
+                "effects": [{"type": "LAYER_BLUR", "radius": 50, "visible": true}],
+                "size": {"x": 980, "y": -120, "width": 420, "height": 420}
+              },
+              {
+                "id": "nav",
+                "name": "Top Nav",
+                "type": "FRAME",
+                "size": {"x": 0, "y": 0, "width": 1440, "height": 72},
+                "children": [
+                  {"id": "logo", "type": "TEXT", "characters": "Findoc", "style": {"fontFamily": "Sora", "fontWeight": 700, "fontSize": 24, "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}]}, "size": {"x": 80, "y": 24, "width": 100, "height": 28}},
+                  {"id": "nav-links", "type": "FRAME", "size": {"x": 800, "y": 24, "width": 400, "height": 24}, "children": [
+                    {"id": "nav1", "type": "TEXT", "characters": "Features", "style": {"fontFamily": "DM Sans", "fontWeight": 500, "fontSize": 16, "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}]}, "size": {"x": 0, "y": 0, "width": 80, "height": 24}},
+                    {"id": "nav2", "type": "TEXT", "characters": "Pricing", "style": {"fontFamily": "DM Sans", "fontWeight": 500, "fontSize": 16, "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}]}, "size": {"x": 100, "y": 0, "width": 80, "height": 24}},
+                    {"id": "nav3", "type": "TEXT", "characters": "About", "style": {"fontFamily": "DM Sans", "fontWeight": 500, "fontSize": 16, "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}]}, "size": {"x": 200, "y": 0, "width": 80, "height": 24}},
+                    {"id": "nav-cta", "type": "TEXT", "characters": "Sign In", "style": {"fontFamily": "DM Sans", "fontWeight": 600, "fontSize": 16, "fills": [{"type": "SOLID", "color": {"r": 0.102, "g": 0.427, "b": 1.0}}]}, "size": {"x": 300, "y": 0, "width": 80, "height": 24}}
+                  ]}
+                ]
+              },
+              {
+                "id": "hero",
+                "name": "Hero",
+                "type": "FRAME",
+                "size": {"x": 0, "y": 72, "width": 1440, "height": 600},
+                "children": [
+                  {"id": "hero-left", "type": "FRAME", "size": {"x": 80, "y": 0, "width": 640, "height": 600}, "children": [
+                    {"id": "hero-h1", "type": "TEXT", "characters": "Secure medical documents. Shared instantly, verified always.", "style": {"fontFamily": "Sora", "fontWeight": 700, "fontSize": 48, "lineHeight": {"unit": "PIXELS", "value": 56}, "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}]}, "size": {"x": 0, "y": 120, "width": 640, "height": 112}},
+                    {"id": "hero-p", "type": "TEXT", "characters": "Findoc centralizes patient records, consents, and reports—securely and compliantly.", "style": {"fontFamily": "DM Sans", "fontWeight": 400, "fontSize": 18, "lineHeight": {"unit": "PIXELS", "value": 28}, "fills": [{"type": "SOLID", "color": {"r": 0.392, "g": 0.459, "b": 0.545}}]}, "size": {"x": 0, "y": 252, "width": 580, "height": 56}},
+                    {"id": "hero-cta1", "type": "INSTANCE", "componentId": "btn1", "size": {"x": 0, "y": 340, "width": 160, "height": 48}},
+                    {"id": "hero-cta2", "type": "INSTANCE", "componentId": "btn2", "size": {"x": 180, "y": 340, "width": 160, "height": 48}}
+                  ]},
+                  {"id": "hero-right", "type": "FRAME", "size": {"x": 720, "y": 0, "width": 640, "height": 600}, "children": [
+                    {"id": "hero-mockup", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.965, "g": 0.973, "b": 0.984}}], "strokeWeight": 1, "strokes": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "cornerRadius": 16, "size": {"x": 120, "y": 80, "width": 400, "height": 440}},
+                    {"id": "hero-floating-card", "type": "FRAME", "size": {"x": 60, "y": 140, "width": 220, "height": 120}, "effects": [{"type": "DROP_SHADOW", "color": {"r": 0.06, "g": 0.12, "b": 0.2, "a": 0.15}, "offset": {"x": 0, "y": 10}, "radius": 24, "spread": 0, "visible": true}], "children": [
+                      {"id": "hero-floating-bg", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 1, "g": 1, "b": 1}}], "cornerRadius": 16, "size": {"x": 0, "y": 0, "width": 220, "height": 120}},
+                      {"id": "hero-floating-title", "type": "TEXT", "characters": "Verified", "style": {"fontFamily": "Sora", "fontWeight": 600, "fontSize": 16, "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}]}, "size": {"x": 16, "y": 16, "width": 120, "height": 20}},
+                      {"id": "hero-floating-chip", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.086, "g": 0.639, "b": 0.29}}], "cornerRadius": 999, "size": {"x": 16, "y": 50, "width": 80, "height": 24}}
+                    ]},
+                    {"id": "hero-floating-pill", "type": "FRAME", "size": {"x": 380, "y": 420, "width": 180, "height": 48}, "children": [
+                      {"id": "hero-pill-bg", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 1, "g": 1, "b": 1}}], "strokeWeight": 1, "strokes": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "cornerRadius": 999, "size": {"x": 0, "y": 0, "width": 180, "height": 48}},
+                      {"id": "hero-pill-text", "type": "TEXT", "characters": "Live activity", "style": {"fontFamily": "DM Sans", "fontWeight": 600, "fontSize": 14, "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}]}, "size": {"x": 20, "y": 12, "width": 140, "height": 24}}
+                    ]}
+                  ]}
+                ]
+              },
+              {
+                "id": "trust",
+                "name": "Trust Logos",
+                "type": "FRAME",
+                "size": {"x": 0, "y": 672, "width": 1440, "height": 120},
+                "children": [
+                  {"id": "trust-label", "type": "TEXT", "characters": "Trusted by leading healthcare institutions", "style": {"fontFamily": "DM Sans", "fontWeight": 500, "fontSize": 16, "fills": [{"type": "SOLID", "color": {"r": 0.392, "g": 0.459, "b": 0.545}}]}, "size": {"x": 80, "y": 20, "width": 300, "height": 24}},
+                  {"id": "logo1", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "cornerRadius": 8, "size": {"x": 80, "y": 60, "width": 200, "height": 40}},
+                  {"id": "logo2", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "cornerRadius": 8, "size": {"x": 300, "y": 60, "width": 200, "height": 40}},
+                  {"id": "logo3", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "cornerRadius": 8, "size": {"x": 520, "y": 60, "width": 200, "height": 40}},
+                  {"id": "logo4", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "cornerRadius": 8, "size": {"x": 740, "y": 60, "width": 200, "height": 40}},
+                  {"id": "logo5", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "cornerRadius": 8, "size": {"x": 960, "y": 60, "width": 200, "height": 40}}
+                ]
+              },
+              {
+                "id": "benefits",
+                "name": "Benefits",
+                "type": "FRAME",
+                "size": {"x": 0, "y": 792, "width": 1440, "height": 232},
+                "children": [
+                  {"id": "benefit1", "type": "FRAME", "size": {"x": 80, "y": 0, "width": 400, "height": 232}, "children": [
+                    {"id": "benefit1-bg", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 1, "g": 1, "b": 1}}], "strokeWeight": 1, "strokes": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "cornerRadius": 16, "effects": [{"type": "DROP_SHADOW", "color": {"r": 0.06, "g": 0.12, "b": 0.2, "a": 0.1}, "offset": {"x": 0, "y": 10}, "radius": 24, "spread": 0, "visible": true}], "size": {"x": -16, "y": -16, "width": 432, "height": 264}},
+                    {"id": "benefit1-icon", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.102, "g": 0.427, "b": 1.0}}], "cornerRadius": 12, "size": {"x": 0, "y": 0, "width": 56, "height": 56}},
+                    {"id": "benefit1-title", "type": "TEXT", "characters": "Privacy‑first", "style": {"fontFamily": "Sora", "fontWeight": 600, "fontSize": 20, "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}]}, "size": {"x": 0, "y": 72, "width": 200, "height": 24}},
+                    {"id": "benefit1-desc", "type": "TEXT", "characters": "End‑to‑end encryption and role‑based access ensure only authorized eyes see patient data.", "style": {"fontFamily": "DM Sans", "fontWeight": 400, "fontSize": 16, "lineHeight": {"unit": "PIXELS", "value": 24}, "fills": [{"type": "SOLID", "color": {"r": 0.392, "g": 0.459, "b": 0.545}}]}, "size": {"x": 0, "y": 108, "width": 400, "height": 96}}
+                  ]},
+                  {"id": "benefit2", "type": "FRAME", "size": {"x": 520, "y": 0, "width": 400, "height": 232}, "children": [
+                    {"id": "benefit2-bg", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 1, "g": 1, "b": 1}}], "strokeWeight": 1, "strokes": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "cornerRadius": 16, "effects": [{"type": "DROP_SHADOW", "color": {"r": 0.06, "g": 0.12, "b": 0.2, "a": 0.1}, "offset": {"x": 0, "y": 10}, "radius": 24, "spread": 0, "visible": true}], "size": {"x": -16, "y": -16, "width": 432, "height": 264}},
+                    {"id": "benefit2-icon", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.102, "g": 0.427, "b": 1.0}}], "cornerRadius": 12, "size": {"x": 0, "y": 0, "width": 56, "height": 56}},
+                    {"id": "benefit2-title", "type": "TEXT", "characters": "Instant sharing", "style": {"fontFamily": "Sora", "fontWeight": 600, "fontSize": 20, "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}]}, "size": {"x": 0, "y": 72, "width": 200, "height": 24}},
+                    {"id": "benefit2-desc", "type": "TEXT", "characters": "Share records with patients, providers, or insurers in a single click—no email attachments.", "style": {"fontFamily": "DM Sans", "fontWeight": 400, "fontSize": 16, "lineHeight": {"unit": "PIXELS", "value": 24}, "fills": [{"type": "SOLID", "color": {"r": 0.392, "g": 0.459, "b": 0.545}}]}, "size": {"x": 0, "y": 108, "width": 400, "height": 96}}
+                  ]},
+                  {"id": "benefit3", "type": "FRAME", "size": {"x": 960, "y": 0, "width": 400, "height": 232}, "children": [
+                    {"id": "benefit3-bg", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 1, "g": 1, "b": 1}}], "strokeWeight": 1, "strokes": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "cornerRadius": 16, "effects": [{"type": "DROP_SHADOW", "color": {"r": 0.06, "g": 0.12, "b": 0.2, "a": 0.1}, "offset": {"x": 0, "y": 10}, "radius": 24, "spread": 0, "visible": true}], "size": {"x": -16, "y": -16, "width": 432, "height": 264}},
+                    {"id": "benefit3-icon", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.102, "g": 0.427, "b": 1.0}}], "cornerRadius": 12, "size": {"x": 0, "y": 0, "width": 56, "height": 56}},
+                    {"id": "benefit3-title", "type": "TEXT", "characters": "Audit logs", "style": {"fontFamily": "Sora", "fontWeight": 600, "fontSize": 20, "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}]}, "size": {"x": 0, "y": 72, "width": 200, "height": 24}},
+                    {"id": "benefit3-desc", "type": "TEXT", "characters": "Immutable audit trail for compliance and peace of mind.", "style": {"fontFamily": "DM Sans", "fontWeight": 400, "fontSize": 16, "lineHeight": {"unit": "PIXELS", "value": 24}, "fills": [{"type": "SOLID", "color": {"r": 0.392, "g": 0.459, "b": 0.545}}]}, "size": {"x": 0, "y": 108, "width": 400, "height": 96}}
+                  ]}
+                ]
+              }
+            ]
+          },
+          {
+            "id": "landing-mobile",
+            "name": "Landing Mobile",
+            "type": "FRAME",
+            "size": {"x": 0, "y": 1100, "width": 390, "height": 844},
+            "backgrounds": [{"type": "SOLID", "color": {"r": 1, "g": 1, "b": 1}}],
+            "children": [
+              {
+                "id": "landing-mobile-bg",
+                "name": "Mobile Gradient",
+                "type": "RECTANGLE",
+                "fills": [
+                  {
+                    "type": "GRADIENT_LINEAR",
+                    "gradientStops": [
+                      {"color": {"r": 0.102, "g": 0.427, "b": 1.0, "a": 0.14}, "position": 0},
+                      {"color": {"r": 1, "g": 1, "b": 1, "a": 0}, "position": 1}
+                    ],
+                    "gradientTransform": [[1, 0, 0], [0, 1, 0]]
+                  }
+                ],
+                "size": {"x": 0, "y": 0, "width": 390, "height": 420}
+              },
+              {
+                "id": "landing-mobile-nav",
+                "name": "Mobile Nav",
+                "type": "FRAME",
+                "size": {"x": 0, "y": 0, "width": 390, "height": 64},
+                "children": [
+                  {"id": "landing-mobile-logo", "type": "TEXT", "characters": "Findoc", "style": {"fontFamily": "Sora", "fontWeight": 700, "fontSize": 20, "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}]}, "size": {"x": 20, "y": 20, "width": 90, "height": 24}},
+                  {"id": "landing-mobile-menu", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "cornerRadius": 8, "size": {"x": 346, "y": 20, "width": 24, "height": 24}}
+                ]
+              },
+              {
+                "id": "landing-mobile-hero",
+                "name": "Mobile Hero",
+                "type": "FRAME",
+                "size": {"x": 0, "y": 64, "width": 390, "height": 520},
+                "children": [
+                  {"id": "landing-mobile-h1", "type": "TEXT", "characters": "Secure medical docs, shared instantly.", "style": {"fontFamily": "Sora", "fontWeight": 700, "fontSize": 28, "lineHeight": {"unit": "PIXELS", "value": 36}, "fills": [{"type": "SOLID", "color": {"r": 0.043, "g": 0.071, "b": 0.125}}]}, "size": {"x": 20, "y": 24, "width": 350, "height": 72}},
+                  {"id": "landing-mobile-p", "type": "TEXT", "characters": "Findoc keeps patient records secure with instant sharing and verification.", "style": {"fontFamily": "DM Sans", "fontWeight": 400, "fontSize": 16, "lineHeight": {"unit": "PIXELS", "value": 24}, "fills": [{"type": "SOLID", "color": {"r": 0.392, "g": 0.459, "b": 0.545}}]}, "size": {"x": 20, "y": 112, "width": 340, "height": 72}},
+                  {"id": "landing-mobile-cta", "type": "INSTANCE", "componentId": "btn1", "size": {"x": 20, "y": 200, "width": 200, "height": 48}},
+                  {"id": "landing-mobile-mockup", "type": "RECTANGLE", "fills": [{"type": "SOLID", "color": {"r": 0.965, "g": 0.973, "b": 0.984}}], "strokeWeight": 1, "strokes": [{"type": "SOLID", "color": {"r": 0.886, "g": 0.906, "b": 0.941}}], "cornerRadius": 20, "size": {"x": 20, "y": 270, "width": 350, "height": 220}},
+                  {"id": "landing-mobile-chip", "type": "INSTANCE", "componentId": "chip1", "size": {"x": 20, "y": 500, "width": 100, "height": 28}}
+                ]
+              },
+              {
+                "id": "landing-mobile-benefit",
+                "name": "Mobile Benefit Card",
+                "type": "FRAME",
+                "size": {"x": 0, "y": 584, "width": 390, "height": 240},
+                "children": [
+                  {"id": "landing-mobile-card", "type": "INSTANCE", "componentId": "card-elevated", "size": {"x": 35, "y": 20, "width": 320, "height": 200}},
+                  {"id": "landing-mobile-hint", "type": "TEXT", "characters": "Swipe for more", "style": {"fontFamily": "DM Sans", "fontWeight": 500, "fontSize": 12, "fills": [{"type": "SOLID", "color": {"r": 0.392, "g": 0.459, "b": 0.545}}]}, "size": {"x": 35, "y": 224, "width": 120, "height": 16}}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
